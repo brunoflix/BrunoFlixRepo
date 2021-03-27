@@ -1,4 +1,4 @@
-# <a href="repository.BrunoFlixRepo.zip">DOWNLOADDO REPOSITÓRIO</a>
+# <a href="repository.BrunoFlixRepo.zip">DOWNLOAD DO REPOSITÓRIO</a>
 
 Instruções para a adição no gestor:
 
