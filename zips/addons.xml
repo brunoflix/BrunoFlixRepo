@@ -87,4 +87,36 @@
     </assets> 
   </extension>
 </addon>
+<addon id="plugin.video.brunoflix.matrix" name="[COLOR white][B]BRUNO[/B][/COLOR][COLOR yellow][B]FLIX[/B][/COLOR]" version="1.0.0+matrix.1" provider-name="[COLOR white][B]BRUNO[/B][/COLOR][COLOR yellow][B]FLIX[/B][/COLOR]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Addon example</summary>
+	<summary lang="pt">Addon modelo</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+	<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/01.jpg</screenshot>
+<screenshot>resources/screenshots/02.jpg</screenshot>
+<screenshot>resources/screenshots/03.jpg</screenshot>
+</assets>
+	<news>
+v1.0.0.matrix.1
+- ATUALIZAÇAO MIGRAÇÃO PARA O KODI 19-TEAM-BRUNOFLIX
+MUITO OBRIGADO, CREDTIOS:Joel Silva zoreu
+</news>
+</extension>
+</addon>
 </addons>
