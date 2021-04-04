@@ -194,4 +194,16 @@ MUITO OBRIGADO, CREDTIOS:Joel Silva zoreu
         <platform>all</platform>
     </extension>
 </addon>
+<addon id="script.video.F4mProxy" 
+	     name="F4mProxy" 
+	     version="3.0.1" 
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+  </extension>
 </addons>
