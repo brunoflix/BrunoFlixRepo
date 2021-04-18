@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.resolvedor" name="Resolvedor" version="1.0.2" provider-name="Zoreu"> 
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.resolveurl" version="5.0.00"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Resolvedor para Addons</summary>
+        <description>Complemento para addons para reprodução de videos</description>
+        <disclaimer>O Resolvedor não hospeda conteudos, apenas prepara links para reprodução.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
