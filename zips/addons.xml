@@ -293,4 +293,108 @@ MUITO OBRIGADO, CREDTIOS:Joel Silva zoreu
 <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
 </extension>
 </addon>
+<addon id="script.luar" version="0.6.2" name="Luar" provider-name="The Dreamers">
+<requires>
+<import addon="script.module.six" version="1.11.0"/>
+<import addon="script.module.requests"/>
+<import addon="resource.language.es_es"/>
+<import addon="script.module.pycryptodome" optional="true"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.repository" name="Luar Repo">
+<info>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="es">Script instalador de complementos para Kodi.</summary>
+<description lang="es">Selecciona, instala y disfruta.</description>
+<disclaimer lang="es"/>
+<assets>
+<icon>icon.gif</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshot000.jpg</screenshot>
+<screenshot>resources/screenshot001.jpg</screenshot>
+<screenshot>resources/screenshot002.jpg</screenshot>
+</assets>
+</extension>
+</addon>
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.1">
+<requires>
+<import addon="xbmc.addon" version="12.0.0"/>
+</requires>
+<extension name="The Crew" point="xbmc.addon.repository">
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/therealatreides/housetools/master/code/_housefiles/</datadir>
+</dir>
+</extension>
+<extension point="xbmc.service" library="service.py" start="[login|startup]"/>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+<description lang="en">Many come, Many go. The true and dedicated are here. We here</description>
+<platform>all</platform>
+<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/art/ss/1.png</screenshot>
+<screenshot>resources/art/ss/2.png</screenshot>
+<screenshot>resources/art/ss/3.png</screenshot>
+</assets>
+</extension>
+</addon>
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
+<requires>
+<!-- <import addon="xbmc.python" version="3.0.0"/> -->
+</requires>
+<extension point="xbmc.addon.repository">
+<info>http://127.0.0.1:61234/addons.xml</info>
+<checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+<datadir>http://127.0.0.1:61234/</datadir>
+</extension>
+<extension point="xbmc.python.script" library="default.py"/>
+<extension point="xbmc.service" library="service.py"/>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+<source>https://github.com/i96751414/repository.github</source>
+<summary lang="en">GitHub virtual Add-on repository</summary>
+<description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
+<news> - Add support to Kodi 19 </news>
+<assets>
+<icon>icon.png</icon>
+</assets>
+</extension>
+</addon>
 </addons>
